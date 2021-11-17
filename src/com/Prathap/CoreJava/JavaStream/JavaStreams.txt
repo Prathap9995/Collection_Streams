@@ -1,0 +1,5 @@
+JavaStrema :- To process the data from the Collection
+
+*To store the group of object into single entity we need Collections.
+*To process the objects from the collections we need stream.
+ Here it introduced two mechanisms i,e :- filter(), map()

@@ -1,0 +1,17 @@
+LAMBDA :-
+
+* To bring the functional programming features in java we introduced Lambda Expressions.
+* For code optimization.[Conize]
+
+Lambda Expression is a anonymous function[Which does not have name of the method and doesn't have return type and no access modifiers]
+* In lambda expressions no need to specify data type of variables
+	i,e (a,b)->SOP(a+b);
+* Consider we need to write return statement in a method and need to write lambda for that like below
+	i,e (a)->{return(a*a);}; ----> i,e (a)->(a*a);--->[a->a*a;] If we want to use return statement then we must declare it within curly braces.
+	
+Some of valid and invalid expressions;
+1. n->return n*n;		->Invalid
+2. n->{return n*n;};	->Valid
+3. n->{return n*n};		->Invalid
+4. n->{n*n;};			->Invalid
+5. n->n*n;				->Valid
